@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChatApp4th.Program">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAABEAAgAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatApp4th.ConsoleSize">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConsoleSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatApp4th.ColorParser">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColorParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatApp4th.ClientDetails">
+    <Position X="6.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACTAAAAAAgAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatApp4th.ServerApp.ServerListener">
+    <Position X="15.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAEAAAAAAAAAAAAAAQAAAJIAAEAAAAEA=</HashCode>
+      <FileName>ServerApp\ServerListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatApp4th.ServerApp.Server">
+    <Position X="18" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAgAgAAACABJAAAIAAAoEY=</HashCode>
+      <FileName>ServerApp\Server.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="server" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChatApp4th.ServerApp.MessageRecievedEventArgs">
+    <Position X="15.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ServerApp\MessageRecievedEventArgs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChatApp4th.ServerApp.Message">
+    <Position X="12.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAKAAAAAA=</HashCode>
+      <FileName>ServerApp\Message.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClientDetails" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChatApp4th.ServerApp.ChatClientConnectedEventArgs">
+    <Position X="12.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerApp\ChatClientConnectedEventArgs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClientDetails" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChatApp4th.ServerApp.ChatClient">
+    <Position X="15.5" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQAAAAQgAAAAAACAAIAAAAAQAAABQEAAAAIA=</HashCode>
+      <FileName>ServerApp\ChatClient.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="clientDetails" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChatApp4th.ClientApp.TcpMessagesThreadLinstner">
+    <Position X="9.5" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAhAAAAEAAAAAAAAAAIAAAAAAAAABAAQAAAEA=</HashCode>
+      <FileName>ClientApp\TcpMessagesThreadLinstner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatApp4th.ClientApp.MessageRecievedEventArgs">
+    <Position X="3" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientApp\MessageRecievedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatApp4th.ClientApp.CommandRecievedEventArgs">
+    <Position X="3" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientApp\CommandRecievedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatApp4th.ClientApp.Client">
+    <Position X="6" Y="7.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgAAAAQAACGIAABACAAIAAAAAAAFAA4AQAAAgQ=</HashCode>
+      <FileName>ClientApp\Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="clientDetails" />
+      <Field Name="tcpThreadLinstner" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="ChatApp4th.ApplicationMode">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQ=</HashCode>
+      <FileName>ApplicationMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
