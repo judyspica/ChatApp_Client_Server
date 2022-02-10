@@ -1,10 +1,3 @@
-﻿// -----------------------------------------------------------------------------
-// <copyright file="AssemblyInfo.cs" company="FHWN">
-// Copyright (c) FHWN. All rights reserved.
-// </copyright>
-// <summary>This program the fourth homework in programming class.</summary>
-// <author>Judy Kardouh.</author>
-// -----------------------------------------------------------------------------
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
